@@ -1,0 +1,9 @@
+.App {
+  background-color: cornflowerblue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 40px;
+  color: white;
+}

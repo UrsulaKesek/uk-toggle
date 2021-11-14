@@ -1,0 +1,137 @@
+.app {
+  background-color: cornflowerblue;
+}
+.cocktail,
+.cocktail2,
+.cocktail3 {
+  position: relative;
+  bottom: 255px;
+  left: 105px;
+  visibility: hidden;
+  border-radius: 50%;
+}
+.p {
+  position: relative;
+  bottom: 100px;
+  left: 130px;
+  color: rgba(0, 0, 0, 0);
+}
+.p1 {
+  position: relative;
+  bottom: 180px;
+  left: 130px;
+  color: rgba(0, 0, 0, 0);
+}
+.toggle-checkbox {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.toggle-label {
+  position: relative;
+  bottom: 120px;
+  left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 150px;
+  height: 60px;
+  background-color: rgb(250, 0, 0);
+  border-radius: 100px;
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.toggle-label .toggle-button {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  transition: 0.2s;
+  border: 6px double black;
+  background-color: rgb(9, 228, 252);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.1) 30%,
+    rgba(62, 11, 244, 0.7)
+  );
+  box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.6),
+    inset -4px -4px 3px rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+
+.toggle-checkbox:checked + .toggle-label .toggle-button {
+  left: calc(100% - 1px);
+  transform: translateX(-100%);
+}
+
+.toggle-label:active .toggle-button {
+  width: 50px;
+}
+.box1 {
+  position: relative;
+  left: 50px;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(155, 5, 117, 0.646) 30%,
+    rgba(62, 11, 244, 0.7)
+  );
+}
+@media screen and (max-width: 375px) {
+  .box1 {
+    position: relative;
+    left: 10px;
+    width: 355px;
+    height: 600px;
+    border-radius: 50%;
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(155, 5, 117, 0.646) 30%,
+      rgba(62, 11, 244, 0.7)
+    );
+  }
+  .cocktail {
+    position: relative;
+    bottom: 235px;
+    left: 30px;
+    visibility: hidden;
+    border-radius: 50%;
+  }
+  .cocktail2 {
+    position: relative;
+    bottom: 335px;
+    left: 145px;
+    visibility: hidden;
+    border-radius: 50%;
+  }
+  .cocktail3 {
+    position: relative;
+    bottom: 255px;
+    left: 15px;
+    visibility: hidden;
+    border-radius: 50%;
+  }
+  .p {
+    position: relative;
+    bottom: 100px;
+    left: 60px;
+    color: rgba(0, 0, 0, 0);
+  }
+  .p1 {
+    position: relative;
+    bottom: 160px;
+    left: 20px;
+    color: rgba(0, 0, 0, 0);
+  }
+}
