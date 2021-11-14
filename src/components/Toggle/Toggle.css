@@ -93,7 +93,7 @@
     top: 35px;
     left: 10px;
     width: 355px;
-    height: 600px;
+    height: 530px;
     border-radius: 50%;
     background-image: linear-gradient(
       to top left,
@@ -102,23 +102,24 @@
       rgba(62, 11, 244, 0.7)
     );
   }
+
   .cocktail {
     position: relative;
-    bottom: 235px;
+    bottom: 205px;
     left: 25px;
     visibility: hidden;
     border-radius: 50%;
   }
   .cocktail2 {
     position: relative;
-    bottom: 335px;
+    bottom: 235px;
     left: 145px;
     visibility: hidden;
     border-radius: 50%;
   }
   .cocktail3 {
     position: relative;
-    bottom: 255px;
+    bottom: 225px;
     left: 15px;
     visibility: hidden;
     border-radius: 50%;
