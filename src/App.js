@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <Toggle
         isOn={value}
-        onColor={"rgb(0,250 , 0)"}
         handleToggle={() => setValue(!value)}
+        onColor={"rgb(0,250 , 0)"}
         onColor1={" rgba(137, 43, 226,1)"}
         onColor2={"rgba(00,10,110,1)"}
         onVisible={"visible"}
