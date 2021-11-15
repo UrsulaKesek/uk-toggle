@@ -10,7 +10,7 @@ function App() {
         isOn={value}
         handleToggle={() => setValue(!value)}
         onColor={"rgb(0,250 , 0)"}
-        onColor1={" rgba(137, 43, 226,1)"}
+        onColor1={" rgba(237, 43, 226,1)"}
         onColor2={"rgba(00,10,110,1)"}
         onVisible={"visible"}
         onFontSize={"70px"}

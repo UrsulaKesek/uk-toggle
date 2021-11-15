@@ -31,7 +31,7 @@ function Toggle({
         </label>
         <p
           className="p"
-          style={{ color: isOn && onColor2, fontSize: isOn && onFontSize }}
+          style={{ color: isOn && onColor1, fontSize: isOn && onFontSize }}
         >
           Hello
         </p>
