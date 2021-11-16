@@ -3,6 +3,11 @@ import "./Toggle.css";
 import Cocktail from "./images/483241.png";
 import Cocktail2 from "./images/483242.png";
 import Cocktail3 from "./images/483243.png";
+import Cocktail4 from "./images/Artboard 1.png";
+import Cocktail5 from "./images/Artboard 2.png";
+import Cocktail6 from "./images/Artboard 3.png";
+import Cocktail7 from "./images/Artboard 4.png";
+import Cocktail8 from "./images/Artboard 5.png";
 function Toggle({
   isOn,
   handleToggle,
@@ -59,6 +64,36 @@ function Toggle({
           className="cocktail2"
           style={{ visibility: isOn && onVisible }}
           src={Cocktail2}
+          alt="cocktail"
+        />
+        <img
+          className="cocktail4"
+          style={{ visibility: isOn && onVisible }}
+          src={Cocktail4}
+          alt="cocktail"
+        />
+        <img
+          className="cocktail5"
+          style={{ visibility: isOn && onVisible }}
+          src={Cocktail5}
+          alt="cocktail"
+        />
+        <img
+          className="cocktail6"
+          style={{ visibility: isOn && onVisible }}
+          src={Cocktail6}
+          alt="cocktail"
+        />
+        <img
+          className="cocktail7"
+          style={{ visibility: isOn && onVisible }}
+          src={Cocktail7}
+          alt="cocktail"
+        />
+        <img
+          className="cocktail8"
+          style={{ visibility: isOn && onVisible }}
+          src={Cocktail8}
           alt="cocktail"
         />
       </div>
