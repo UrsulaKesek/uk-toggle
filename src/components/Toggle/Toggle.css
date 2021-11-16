@@ -120,7 +120,7 @@
     rgba(62, 11, 244, 0.7)
   );
 }
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375) and (max-width: 428px) {
   .box1 {
     position: relative;
     top: 35px;
