@@ -214,13 +214,13 @@
   .p1 {
     position: relative;
     bottom: 180 px;
-    left: 30 px;
+    right: 130 px;
     color: rgba(0, 0, 0, 0);
   }
   .cocktail4 {
     position: relative;
     bottom: 420 px;
-    left: -30 px;
+    right: 130 px;
     visibility: hidden;
   }
   .cocktail5 {
@@ -247,7 +247,7 @@
   .cocktail8 {
     position: relative;
     bottom: 580 px;
-    right: -190 px;
+    left: 190 px;
     visibility: hidden;
   }
 }
