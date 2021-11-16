@@ -120,7 +120,7 @@
     rgba(62, 11, 244, 0.7)
   );
 }
-@media only screen and (min-width: 375px) and (max-width: 768px) {
+@media only screen and (min-width: 375px) and (max-width: 400px) {
   .box1 {
     position: relative;
     top: 35px;
@@ -201,5 +201,12 @@
     bottom: 160px;
     left: 20px;
     color: rgba(0, 0, 0, 0);
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 425px) {
+  .box1 {
+    position: relative;
+    top: 35px;
+    left: 40px;
   }
 }
