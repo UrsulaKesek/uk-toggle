@@ -120,7 +120,7 @@
     rgba(62, 11, 244, 0.7)
   );
 }
-@media only screen and (min-width: 375px) and (max-width: 400px) {
+@media only screen and (min-width: 375px) and (max-width: 425px) {
   .box1 {
     position: relative;
     top: 35px;
@@ -201,53 +201,5 @@
     bottom: 160px;
     left: 20px;
     color: rgba(0, 0, 0, 0);
-  }
-}
-@media only screen and (min-width: 401px) and (max-width: 425px) {
-  .box1 {
-    position: relative;
-    top: 35px;
-    left: 40px;
-    width: 355px;
-    height: 530px;
-  }
-  .p1 {
-    position: relative;
-    bottom: 180 px;
-    right: 130 px;
-    color: rgba(0, 0, 0, 0);
-  }
-  .cocktail4 {
-    position: relative;
-    bottom: 420 px;
-    right: 130 px;
-    visibility: hidden;
-  }
-  .cocktail5 {
-    position: relative;
-    bottom: 590 px;
-    right: 100 px;
-    visibility: hidden;
-    width: 15%;
-  }
-  .cocktail6 {
-    position: relative;
-    bottom: 540 px;
-    left: 50 px;
-    visibility: hidden;
-    width: 17%;
-  }
-  .cocktail7 {
-    position: relative;
-    bottom: 590 px;
-    right: 180 px;
-    visibility: hidden;
-    width: 17%;
-  }
-  .cocktail8 {
-    position: relative;
-    bottom: 580 px;
-    left: 190 px;
-    visibility: hidden;
   }
 }
