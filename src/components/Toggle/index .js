@@ -15,6 +15,7 @@ function Toggle({
   onColor1,
   onColor2,
   onVisible,
+  onHidden,
   onFontSize,
 }) {
   return (
@@ -44,25 +45,25 @@ function Toggle({
           className="p1"
           style={{ color: isOn && onColor2, fontSize: isOn && onFontSize }}
         >
-          5 O'Clock
+          7 O'Clock
         </p>
 
         <img
           className="cocktail"
-          style={{ visibility: isOn && onVisible }}
+          style={{ visibility: isOn && onHidden }}
           src={Cocktail}
           alt="cocktail"
         />
         <img
           className="cocktail3"
-          style={{ visibility: isOn && onVisible }}
+          style={{ visibility: isOn && onHidden }}
           src={Cocktail3}
           alt="cocktail"
         />
 
         <img
           className="cocktail2"
-          style={{ visibility: isOn && onVisible }}
+          style={{ visibility: isOn && onHidden }}
           src={Cocktail2}
           alt="cocktail"
         />
