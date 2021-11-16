@@ -120,7 +120,7 @@
     rgba(62, 11, 244, 0.7)
   );
 }
-@media only screen and (min-width: 375px) and (max-width: 425px) {
+@media only screen and (min-width: 375px) and (max-width: 430px) {
   .App {
     background-color: cornflowerblue;
     width: 425px;
