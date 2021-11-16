@@ -157,6 +157,39 @@
     visibility: hidden;
     border-radius: 50%;
   }
+  .cocktail4 {
+    position: relative;
+    bottom: 400px;
+    left: 20px;
+    visibility: hidden;
+  }
+  .cocktail5 {
+    position: relative;
+    bottom: 550px;
+    right: 100px;
+    visibility: hidden;
+    width: 15%;
+  }
+  .cocktail6 {
+    position: relative;
+    bottom: 540px;
+    left: 80px;
+    visibility: hidden;
+    width: 17%;
+  }
+  .cocktail7 {
+    position: relative;
+    bottom: 600px;
+    left: -140px;
+    visibility: hidden;
+    width: 19%;
+  }
+  .cocktail8 {
+    position: relative;
+    bottom: 650px;
+    left: 210px;
+    visibility: hidden;
+  }
   .p {
     position: relative;
     bottom: 100px;

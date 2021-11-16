@@ -13,6 +13,7 @@ function App() {
         onColor1={" rgba(237, 43, 226,1)"}
         onColor2={"rgba(00,10,110,1)"}
         onVisible={"visible"}
+        onHidden={"hidden"}
         onFontSize={"70px"}
       />
     </div>
