@@ -209,7 +209,6 @@
 @media only screen and (min-width: 1080px) {
   .App {
     background-color: cornflowerblue;
-    width: 425px;
   }
   .box1 {
     position: relative;
