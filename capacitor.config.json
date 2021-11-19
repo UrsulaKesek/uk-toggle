@@ -1,0 +1,8 @@
+{
+    "appId":"io.ionic.uk-toggle",
+    "appName":"uk-toggle",
+    "bundledWebRuntime":false,
+    "npmClient":"npm",
+    "webDir":"build",
+    "cordova":{}
+}
