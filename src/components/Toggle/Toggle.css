@@ -107,6 +107,8 @@
 }
 .box1 {
   position: relative;
+  top: 35px;
+  left: 25px;
   width: 600px;
   height: 600px;
   border-radius: 50%;
