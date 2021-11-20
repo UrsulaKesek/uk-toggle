@@ -1,15 +1,6 @@
 .App {
   background-color: cornflowerblue;
 }
-.cocktail,
-.cocktail2,
-.cocktail3 {
-  position: relative;
-  bottom: 255px;
-  left: 105px;
-  visibility: hidden;
-  border-radius: 50%;
-}
 .cocktail4 {
   position: relative;
   bottom: 400px;
@@ -43,6 +34,14 @@
   right: 20px;
   visibility: hidden;
 }
+.snow6,
+.snow7,
+.snow8,
+.snow9,
+.snow10 {
+  visibility: hidden;
+}
+
 .p {
   position: relative;
   bottom: 100px;
@@ -139,27 +138,6 @@
     );
   }
 
-  .cocktail {
-    position: relative;
-    bottom: 205px;
-    left: 25px;
-    visibility: hidden;
-    border-radius: 50%;
-  }
-  .cocktail2 {
-    position: relative;
-    bottom: 335px;
-    left: 145px;
-    visibility: hidden;
-    border-radius: 50%;
-  }
-  .cocktail3 {
-    position: relative;
-    bottom: 225px;
-    left: 15px;
-    visibility: hidden;
-    border-radius: 50%;
-  }
   .cocktail4 {
     position: relative;
     bottom: 400px;
@@ -193,6 +171,15 @@
     left: 210px;
     visibility: hidden;
   }
+}
+.snow6,
+.snow7,
+.snow8,
+.snow9,
+.snow10 {
+  visibility: hidden;
+}
+
   .p {
     position: relative;
     bottom: 100px;
