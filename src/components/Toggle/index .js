@@ -1,13 +1,15 @@
 import React from "react";
 import "./Toggle.css";
-import Cocktail from "./images/483241.png";
-import Cocktail2 from "./images/483242.png";
-import Cocktail3 from "./images/483243.png";
 import Cocktail4 from "./images/Artboard 1.png";
 import Cocktail5 from "./images/Artboard 2.png";
 import Cocktail6 from "./images/Artboard 3.png";
 import Cocktail7 from "./images/Artboard 4.png";
 import Cocktail8 from "./images/Artboard 5.png";
+import Snowflake6 from "./images/Snowflake6.png";
+import Snowflake7 from "./images/Snowflake7.png";
+import Snowflake8 from "./images/Snowflake8.png";
+import Snowflake9 from "./images/Snowflake9.png";
+import Snowflake10 from "./images/Snowflake10.png";
 function Toggle({
   isOn,
   handleToggle,
@@ -45,28 +47,39 @@ function Toggle({
           className="p1"
           style={{ color: isOn && onColor2, fontSize: isOn && onFontSize }}
         >
-          7 O'Clock ❄️ ❄️ ❄️ ❄️ ❄️
+          7 O'Clock
         </p>
+        <img
+          className="snow6"
+          style={{ visibility: isOn && onVisible }}
+          src={Snowflake6}
+          alt="snowflake"
+        />
+        <img
+          className="snow7"
+          style={{ visibility: isOn && onVisible }}
+          src={Snowflake7}
+          alt="snowflake"
+        />
+        <img
+          className="snow8"
+          style={{ visibility: isOn && onVisible }}
+          src={Snowflake8}
+          alt="snowflake"
+        />
+        <img
+          className="snow9"
+          style={{ visibility: isOn && onVisible }}
+          src={Snowflake9}
+          alt="snowflake"
+        />
+        <img
+          className="snow10"
+          style={{ visibility: isOn && onVisible }}
+          src={Snowflake10}
+          alt="snowflake"
+        />
 
-        <img
-          className="cocktail"
-          style={{ visibility: isOn && onHidden }}
-          src={Cocktail}
-          alt="cocktail"
-        />
-        <img
-          className="cocktail3"
-          style={{ visibility: isOn && onHidden }}
-          src={Cocktail3}
-          alt="cocktail"
-        />
-
-        <img
-          className="cocktail2"
-          style={{ visibility: isOn && onHidden }}
-          src={Cocktail2}
-          alt="cocktail"
-        />
         <img
           className="cocktail4"
           style={{ visibility: isOn && onVisible }}
