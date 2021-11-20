@@ -148,6 +148,27 @@
     bottom: 200px;
     left: 20px;
     visibility: hidden;
+    animation: chink 4s linear 2s infinite;
+  }
+  @keyframes chink {
+    0% {
+      bottom: 200px;
+      left: 20px;
+    }
+    30% {
+      bottom: 300px;
+      left: -20px;
+      transform: rotate (0deg);
+    }
+    60% {
+      bottom: 300px;
+      left: -20px;
+      transform: rotate (90deg);
+    }
+    100% {
+      bottom: 300px;
+      left: -40px;
+    }
   }
   .cocktail5 {
     position: relative;
@@ -175,92 +196,112 @@
     bottom: 330px;
     left: -120px;
     visibility: hidden;
+    animation: chink1 4s linear 2s infinite;
   }
-}
-.snow6 {
-  visibility: hidden;
-  position: relative;
-  bottom: 750px;
-  animation: fall 8s linear 5s infinite;
-}
-@keyframes fall {
-  0% {
-    bottom: 750px;
+  @keyframes chink1 {
+    0% {
+      bottom: 330px;
+      left: -120px;
+    }
+    30% {
+      bottom: 500px;
+      left: 40px;
+    }
+    60% {
+      bottom: 500px;
+      left: 10px;
+    }
+    100% {
+      bottom: 300px;
+      left: -80px;
+    }
   }
-  100% {
-    bottom: 100px;
-  }
-}
-.snow7 {
-  visibility: hidden;
-  position: relative;
-  bottom: 750px;
-  left: 30px;
-  animation: fall 7s linear 5s infinite;
-}
-@keyframes fall {
-  0% {
-    bottom: 750px;
-  }
-  100% {
-    bottom: 100px;
-  }
-}
 
-.snow8 {
-  visibility: hidden;
-  position: relative;
-  bottom: 750px;
-  left: 60px;
-  animation: fall 6s linear 5s infinite;
-}
-@keyframes fall {
-  0% {
+  .snow6 {
+    visibility: hidden;
+    position: relative;
     bottom: 750px;
+    animation: fall 8s linear 5s infinite;
   }
-  100% {
-    bottom: 100px;
+  @keyframes fall {
+    0% {
+      bottom: 750px;
+    }
+    100% {
+      bottom: 100px;
+    }
   }
-}
-.snow9 {
-  visibility: hidden;
-  position: relative;
-  bottom: 750px;
-  left: 90px;
-  animation: fall 7s linear 5s infinite;
-}
-@keyframes fall {
-  0% {
+  .snow7 {
+    visibility: hidden;
+    position: relative;
     bottom: 750px;
+    left: 30px;
+    animation: fall 7s linear 5s infinite;
   }
-  100% {
-    bottom: 100px;
+  @keyframes fall {
+    0% {
+      bottom: 750px;
+    }
+    100% {
+      bottom: 100px;
+    }
   }
-}
-.snow10 {
-  visibility: hidden;
-  position: relative;
-  bottom: 750px;
-  left: 120px;
-  animation: fall 5s linear 5s infinite;
-}
-@keyframes fall {
-  0% {
+
+  .snow8 {
+    visibility: hidden;
+    position: relative;
     bottom: 750px;
+    left: 60px;
+    animation: fall 6s linear 5s infinite;
   }
-  100% {
-    bottom: 100px;
+  @keyframes fall {
+    0% {
+      bottom: 750px;
+    }
+    100% {
+      bottom: 100px;
+    }
   }
-}
-.p {
-  position: relative;
-  bottom: 118px;
-  left: 120px;
-  color: rgba(0, 0, 0, 0);
-}
-.p1 {
-  position: relative;
-  bottom: 190px;
-  left: 50px;
-  color: rgba(0, 0, 0, 0);
+  .snow9 {
+    visibility: hidden;
+    position: relative;
+    bottom: 750px;
+    left: 90px;
+    animation: fall 7s linear 5s infinite;
+  }
+  @keyframes fall {
+    0% {
+      bottom: 750px;
+    }
+    100% {
+      bottom: 100px;
+    }
+  }
+  .snow10 {
+    visibility: hidden;
+    position: relative;
+    bottom: 750px;
+    left: 120px;
+    animation: fall 5s linear 5s infinite;
+  }
+  @keyframes fall {
+    0% {
+      bottom: 750px;
+    }
+    100% {
+      bottom: 100px;
+    }
+  }
+  .p {
+    position: relative;
+    bottom: 118px;
+    left: 120px;
+    color: rgba(0, 0, 0, 0);
+  }
+  .p1 {
+    position: relative;
+    bottom: 190px;
+    left: 50px;
+    color: rgba(0, 0, 0, 0);
+  }
 }
