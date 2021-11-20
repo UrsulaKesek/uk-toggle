@@ -190,7 +190,27 @@
     left: 40px;
     visibility: hidden;
     width: 19%;
+    animation: click2 4s linear 2s infinite;
   }
+  @keyframes click2 {
+    0% {
+      bottom: 450px;
+      left: 40px;
+    }
+    30% {
+      bottom: 500px;
+      left: -70px;
+    }
+    60% {
+      bottom: 320px;
+      left: 50px;
+    }
+    100% {
+      bottom: 450px;
+      left: 60px;
+    }
+  }
+
   .cocktail8 {
     position: relative;
     bottom: 330px;
