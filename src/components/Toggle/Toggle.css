@@ -45,7 +45,7 @@
 .p {
   position: relative;
   bottom: 118px;
-  left: 40px;
+  left: 120px;
   color: rgba(0, 0, 0, 0);
 }
 .p1 {
@@ -315,7 +315,7 @@
   .p {
     position: relative;
     bottom: 118px;
-    left: 120px;
+    left: 100px;
     color: rgba(0, 0, 0, 0);
   }
   .p1 {
