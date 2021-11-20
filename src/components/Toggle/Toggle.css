@@ -3,20 +3,20 @@
 }
 .cocktail4 {
   position: relative;
-  bottom: 400px;
-  left: 20px;
+  bottom: 200px;
+  left: 150px;
   visibility: hidden;
 }
 .cocktail5 {
   position: relative;
-  bottom: 210px;
+  bottom: 140px;
   right: 100px;
   visibility: hidden;
   width: 15%;
 }
 .cocktail6 {
   position: relative;
-  bottom: 540px;
+  bottom: 340px;
   left: 80px;
   visibility: hidden;
   width: 17%;
@@ -24,7 +24,7 @@
 .cocktail7 {
   position: relative;
   bottom: 560px;
-  left: 180px;
+  left: 280px;
   visibility: hidden;
   width: 17%;
 }
@@ -45,13 +45,13 @@
 .p {
   position: relative;
   bottom: 100px;
-  left: 130px;
+  left: 60px;
   color: rgba(0, 0, 0, 0);
 }
 .p1 {
   position: relative;
   bottom: 180px;
-  left: 130px;
+  left: 100px;
   color: rgba(0, 0, 0, 0);
 }
 .toggle-checkbox {
