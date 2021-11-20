@@ -45,7 +45,7 @@ function Toggle({
           className="p1"
           style={{ color: isOn && onColor2, fontSize: isOn && onFontSize }}
         >
-          7 O'Clock
+          7 O'Clock ❄️ ❄️ ❄️ ❄️ ❄️
         </p>
 
         <img
