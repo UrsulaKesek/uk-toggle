@@ -151,8 +151,8 @@
   }
   .cocktail5 {
     position: relative;
-    bottom: 350px;
-    left: 100px;
+    bottom: 450px;
+    right: 150px;
     visibility: hidden;
     width: 15%;
   }
@@ -172,8 +172,8 @@
   }
   .cocktail8 {
     position: relative;
-    bottom: 450px;
-    right: 150px;
+    bottom: 350px;
+    left: 100px;
     visibility: hidden;
   }
 }
