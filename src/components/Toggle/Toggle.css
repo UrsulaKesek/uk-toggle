@@ -399,19 +399,19 @@
   }
   @keyframes click2 {
     0% {
-      bottom: 450px;
+      bottom: 390px;
       left: 40px;
     }
     30% {
-      bottom: 500px;
-      left: -70px;
+      bottom: 300px;
+      left: -50px;
     }
     60% {
-      bottom: 320px;
-      left: 50px;
+      bottom: 300px;
+      left: 60px;
     }
     100% {
-      bottom: 450px;
+      bottom: 370px;
       left: 60px;
     }
   }
