@@ -345,8 +345,8 @@
   }
   .toggle-label {
     position: relative;
-    bottom: 80px;
-    left: 105px;
+    bottom: 100px;
+    left: 190px;
   }
   .cocktail4 {
     position: relative;
@@ -377,7 +377,7 @@
   }
   .cocktail5 {
     position: relative;
-    bottom: 500px;
+    bottom: 300px;
     left: 30px;
     visibility: hidden;
     width: 15%;
@@ -391,7 +391,7 @@
   }
   .cocktail7 {
     position: relative;
-    bottom: 450px;
+    bottom: 300px;
     left: 40px;
     visibility: hidden;
     width: 19%;
@@ -506,7 +506,7 @@
     visibility: hidden;
     position: relative;
     bottom: 750px;
-    left: 120px;
+    left: 90px;
     animation: fall 5s linear 5s infinite;
   }
   @keyframes fall {
