@@ -327,6 +327,7 @@
   @media screen and (min-width: 320px) and (max-width: 374px) {
     .App {
       background-color: cornflowerblue;
+      width: 374px;
     }
     .box1 {
       position: relative;
@@ -345,9 +346,8 @@
     .toggle-label {
       position: relative;
       bottom: 105px;
-      left: 240px;
+      left: 130px;
     }
-
     .cocktail4 {
       position: relative;
       bottom: 200px;
