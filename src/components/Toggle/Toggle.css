@@ -152,22 +152,22 @@
   }
   @keyframes chink {
     0% {
-      bottom: 200px;
+      bottom: 140px;
       left: 20px;
     }
     30% {
-      bottom: 300px;
-      left: -20px;
+      bottom: 140px;
+      left: 80px;
       transform: rotate (0deg);
     }
     60% {
-      bottom: 300px;
-      left: -20px;
+      bottom: 140px;
+      left: 60px;
       transform: rotate (90deg);
     }
     100% {
-      bottom: 300px;
-      left: -40px;
+      bottom: 140px;
+      left: 20px;
     }
   }
   .cocktail5 {
@@ -220,19 +220,19 @@
   }
   @keyframes chink1 {
     0% {
-      bottom: 330px;
+      bottom: 350px;
       left: -120px;
     }
     30% {
-      bottom: 500px;
+      bottom: 350px;
       left: 40px;
     }
     60% {
-      bottom: 500px;
+      bottom: 350px;
       left: 10px;
     }
     100% {
-      bottom: 300px;
+      bottom: 350px;
       left: -80px;
     }
   }
