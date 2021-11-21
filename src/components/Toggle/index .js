@@ -1,6 +1,7 @@
 import React from "react";
 import "./Toggle.css";
 import Cocktail4 from "./images/Artboard 1.png";
+import Cocktail4a from "./images/Artboard 1a.png";
 import Cocktail5 from "./images/Artboard 2.png";
 import Cocktail6 from "./images/Artboard 3.png";
 import Cocktail7 from "./images/Artboard 4.png";
@@ -84,6 +85,12 @@ function Toggle({
           className="cocktail4"
           style={{ visibility: isOn && onVisible }}
           src={Cocktail4}
+          alt="cocktail"
+        />
+        <img
+          className="cocktail4a"
+          style={{ visibility: isOn && onVisible }}
+          src={Cocktail4a}
           alt="cocktail"
         />
         <img
