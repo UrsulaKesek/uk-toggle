@@ -6,7 +6,7 @@
   .box1 {
     position: relative;
     left: 10px;
-    width: 300px;
+    width: 360px;
     height: 580px;
     border-radius: 50%;
     background-image: linear-gradient(
@@ -23,7 +23,7 @@
   }
   .garland {
     position: relative;
-    bottom: 1260px;
+    bottom: 1060px;
     width: 380px;
     right: 13px;
     visibility: hidden;
