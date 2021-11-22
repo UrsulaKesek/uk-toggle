@@ -42,9 +42,9 @@
 }
 .garland {
   position: relative;
-  bottom: 995px;
+  bottom: 960px;
   width: 690px;
-  right: 40px;
+  right: 25px;
   visibility: visible;
 }
 
@@ -548,11 +548,4 @@
   left: 50px;
   color: rgba(0, 0, 0, 0);
   font-size: 50px;
-}
-.garland {
-  position: relative;
-  bottom: 925px;
-  width: 360px;
-  right: 5px;
-  visibility: visible;
 }
