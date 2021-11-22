@@ -21,6 +21,13 @@
     top: 485px;
     left: 240px;
   }
+  .garland {
+    position: relative;
+    bottom: 880px;
+    width: 370px;
+    right: 20px;
+    visibility: hidden;
+  }
 
   .cocktail4 {
     position: relative;
