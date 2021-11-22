@@ -1,7 +1,7 @@
 import React from "react";
-import "./Toggle.css";
-import "./Toggle1.css";
-import "./Toggle2.css";
+import "./css/Toggle.css";
+import "./css/Toggle1.css";
+import "./css/Toggle2.css";
 import Cocktail4 from "./images/Artboard 1.png";
 import Cocktail4a from "./images/Artboard 1a.png";
 import Cocktail5 from "./images/Artboard 2.png";
