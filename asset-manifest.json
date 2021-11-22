@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/uk-toggle/static/css/main.5fd2f18e.chunk.css",
-    "main.js": "/uk-toggle/static/js/main.ab763449.chunk.js",
-    "main.js.map": "/uk-toggle/static/js/main.ab763449.chunk.js.map",
+    "main.css": "/uk-toggle/static/css/main.8ff58c47.chunk.css",
+    "main.js": "/uk-toggle/static/js/main.a7c2ab4b.chunk.js",
+    "main.js.map": "/uk-toggle/static/js/main.a7c2ab4b.chunk.js.map",
     "runtime-main.js": "/uk-toggle/static/js/runtime-main.6d72db08.js",
     "runtime-main.js.map": "/uk-toggle/static/js/runtime-main.6d72db08.js.map",
     "static/js/2.b4157507.chunk.js": "/uk-toggle/static/js/2.b4157507.chunk.js",
     "static/js/2.b4157507.chunk.js.map": "/uk-toggle/static/js/2.b4157507.chunk.js.map",
     "index.html": "/uk-toggle/index.html",
-    "static/css/main.5fd2f18e.chunk.css.map": "/uk-toggle/static/css/main.5fd2f18e.chunk.css.map",
+    "static/css/main.8ff58c47.chunk.css.map": "/uk-toggle/static/css/main.8ff58c47.chunk.css.map",
     "static/js/2.b4157507.chunk.js.LICENSE.txt": "/uk-toggle/static/js/2.b4157507.chunk.js.LICENSE.txt",
     "static/media/Artboard 1.137cc1c4.png": "/uk-toggle/static/media/Artboard 1.137cc1c4.png",
     "static/media/Artboard 1a.c4132cdb.png": "/uk-toggle/static/media/Artboard 1a.c4132cdb.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.6d72db08.js",
     "static/js/2.b4157507.chunk.js",
-    "static/css/main.5fd2f18e.chunk.css",
-    "static/js/main.ab763449.chunk.js"
+    "static/css/main.8ff58c47.chunk.css",
+    "static/js/main.a7c2ab4b.chunk.js"
   ]
 }
