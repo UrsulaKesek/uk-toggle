@@ -42,9 +42,9 @@
 }
 .garland {
   position: relative;
-  bottom: 961px;
-  width: 700px;
-  right: 24px;
+  bottom: 995px;
+  width: 690px;
+  right: 40px;
   visibility: visible;
 }
 
@@ -81,7 +81,7 @@
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  width: 150px;
+  width: 100px;
   height: 60px;
   background-color: rgb(250, 0, 0);
   border-radius: 100px;
@@ -365,9 +365,10 @@
   }
   .toggle-label {
     position: relative;
-    bottom: 100px;
-    left: 190px;
+    top: 520px;
+    left: 180px;
   }
+
   .cocktail4 {
     position: relative;
     bottom: 200px;
