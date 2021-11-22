@@ -40,16 +40,21 @@
   right: 20px;
   visibility: hidden;
 }
+.garland {
+  position: relative;
+  bottom: 961px;
+  width: 700px;
+  right: 24px;
+  visibility: visible;
+}
+
 .snow6,
 .snow7,
 .snow8,
 .snow9,
-.snow10,
-.garland1,
-.garland2 {
+.snow10 {
   visibility: hidden;
 }
-
 .p {
   position: relative;
   bottom: 118px;
@@ -70,7 +75,7 @@
 
 .toggle-label {
   position: relative;
-  bottom: 125px;
+  bottom: -525px;
   left: 440px;
   display: flex;
   align-items: center;
@@ -244,6 +249,12 @@
       left: 220px;
     }
   }
+  .garland {
+    position: relative;
+    bottom: 961px;
+    width: 700px;
+    right: 24px;
+  }
 
   .snow6 {
     visibility: hidden;
@@ -320,6 +331,7 @@
       bottom: 100px;
     }
   }
+
   .p {
     position: relative;
     bottom: 118px;
