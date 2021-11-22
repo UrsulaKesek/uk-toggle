@@ -11,6 +11,8 @@ import Snowflake7 from "./images/Snowflake7.png";
 import Snowflake8 from "./images/Snowflake8.png";
 import Snowflake9 from "./images/Snowflake9.png";
 import Snowflake10 from "./images/Snowflake10.png";
+import garland from "./images/garland.png";
+
 function Toggle({
   isOn,
   handleToggle,
@@ -50,6 +52,7 @@ function Toggle({
         >
           7 O'Clock
         </p>
+
         <img
           className="snow6"
           style={{ visibility: isOn && onVisible }}
@@ -116,6 +119,12 @@ function Toggle({
           style={{ visibility: isOn && onVisible }}
           src={Cocktail8}
           alt="cocktail"
+        />
+        <img
+          className="garland"
+          style={{ visibility: isOn && onVisible }}
+          src={garland}
+          alt="garland"
         />
       </div>
     </>

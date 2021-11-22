@@ -29,8 +29,8 @@
 }
 .cocktail7 {
   position: relative;
-  bottom: 560px;
-  left: 280px;
+  bottom: 570px;
+  left: 250px;
   visibility: hidden;
   width: 17%;
 }
@@ -44,7 +44,9 @@
 .snow7,
 .snow8,
 .snow9,
-.snow10 {
+.snow10,
+.garland1,
+.garland2 {
   visibility: hidden;
 }
 
