@@ -23,7 +23,7 @@
   }
   .garland {
     position: relative;
-    bottom: 1060px;
+    bottom: 1260px;
     width: 380px;
     right: 13px;
     visibility: hidden;
@@ -64,7 +64,7 @@
   .cocktail6 {
     position: relative;
     bottom: 330px;
-    left: 150px;
+    left: 100px;
     visibility: hidden;
     width: 17%;
   }
