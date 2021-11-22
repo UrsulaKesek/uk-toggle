@@ -152,8 +152,8 @@
   }
   .toggle-label {
     position: relative;
-    bottom: 105px;
-    left: 240px;
+    top: 460px;
+    left: 280px;
   }
 
   .cocktail4 {
@@ -251,9 +251,9 @@
   }
   .garland {
     position: relative;
-    bottom: 961px;
-    width: 700px;
-    right: 24px;
+    bottom: 880px;
+    width: 430px;
+    right: 20px;
   }
 
   .snow6 {
@@ -365,8 +365,8 @@
   }
   .toggle-label {
     position: relative;
-    top: 520px;
-    left: 180px;
+    top: 485px;
+    left: 240px;
   }
 
   .cocktail4 {
@@ -548,4 +548,11 @@
   left: 50px;
   color: rgba(0, 0, 0, 0);
   font-size: 50px;
+}
+.garland {
+  position: relative;
+  bottom: 925px;
+  width: 360px;
+  right: 5px;
+  visibility: visible;
 }
