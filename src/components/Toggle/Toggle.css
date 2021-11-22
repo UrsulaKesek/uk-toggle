@@ -42,10 +42,10 @@
 }
 .garland {
   position: relative;
-  bottom: 960px;
+  bottom: 1095px;
   width: 690px;
   right: 25px;
-  visibility: visible;
+  visibility: hidden;
 }
 
 .snow6,
@@ -54,16 +54,17 @@
 .snow9,
 .snow10 {
   visibility: hidden;
+  z-index: 0;
 }
 .p {
   position: relative;
-  bottom: 118px;
-  left: 120px;
+  bottom: 58px;
+  left: 100px;
   color: rgba(0, 0, 0, 0);
 }
 .p1 {
   position: relative;
-  bottom: 190px;
+  bottom: 120px;
   left: 50px;
   color: rgba(0, 0, 0, 0);
 }

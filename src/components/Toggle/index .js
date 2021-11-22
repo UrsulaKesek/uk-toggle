@@ -85,6 +85,36 @@ function Toggle({
           src={Snowflake10}
           alt="snowflake"
         />
+        <img
+          className="snow6"
+          style={{ visibility: isOn && onVisible }}
+          src={Snowflake6}
+          alt="snowflake"
+        />
+        <img
+          className="snow7"
+          style={{ visibility: isOn && onVisible }}
+          src={Snowflake7}
+          alt="snowflake"
+        />
+        <img
+          className="snow8"
+          style={{ visibility: isOn && onVisible }}
+          src={Snowflake8}
+          alt="snowflake"
+        />
+        <img
+          className="snow9"
+          style={{ visibility: isOn && onVisible }}
+          src={Snowflake9}
+          alt="snowflake"
+        />
+        <img
+          className="snow10"
+          style={{ visibility: isOn && onVisible }}
+          src={Snowflake10}
+          alt="snowflake"
+        />
 
         <img
           className="cocktail4"
