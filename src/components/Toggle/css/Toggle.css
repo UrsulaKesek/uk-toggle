@@ -4,33 +4,33 @@
 .cocktail4 {
   position: relative;
   bottom: 200px;
-  left: 150px;
+  right: 450px;
   visibility: hidden;
 }
 .cocktail4a {
   position: relative;
-  bottom: 350px;
-  left: 150px;
+  bottom: 400px;
+  left: 430px;
   visibility: hidden;
 }
 .cocktail5 {
   position: relative;
-  bottom: 140px;
-  right: 100px;
+  bottom: 350px;
+  left: 100px;
   visibility: hidden;
   width: 15%;
 }
 .cocktail6 {
   position: relative;
   bottom: 340px;
-  left: 80px;
+  left: 115px;
   visibility: hidden;
   width: 17%;
 }
 .cocktail7 {
   position: relative;
   bottom: 570px;
-  left: 250px;
+  left: 200px;
   visibility: hidden;
   width: 17%;
 }
@@ -56,13 +56,13 @@
   visibility: hidden;
   z-index: 0;
 }
-.p {
+p.p {
   position: relative;
   bottom: 78px;
   left: 100px;
   color: rgba(0, 0, 0, 0);
 }
-.p1 {
+p.p1 {
   position: relative;
   bottom: 150px;
   left: 50px;
