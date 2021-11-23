@@ -50,6 +50,14 @@
       left: 20px;
     }
   }
+  .cocktail4a {
+    position: relative;
+    bottom: 400px;
+    left: 30px;
+    visibility: hidden;
+    width: 15%;
+  }
+
   .cocktail5 {
     position: relative;
     bottom: 500px;
