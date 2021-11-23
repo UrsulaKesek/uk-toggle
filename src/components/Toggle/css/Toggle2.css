@@ -33,14 +33,14 @@
   .cocktail4 {
     position: relative;
     bottom: 200px;
-    left: 20px;
+    left: 10px;
     visibility: hidden;
-    animation: chink 4s linear 2s infinite;
+    animation: chink 4s linear 8s infinite;
   }
   @keyframes chink {
     0% {
       bottom: 150px;
-      left: 80px;
+      left: 40px;
     }
     30% {
       bottom: 150px;
@@ -48,17 +48,17 @@
     }
     60% {
       bottom: 150px;
-      left: -20px;
+      left: -80px;
     }
     100% {
       bottom: 150px;
-      left: -40px;
+      left: 40px;
     }
   }
   .cocktail4a {
     position: relative;
-    bottom: 250px;
-    left: -180px;
+    bottom: 150px;
+    left: -200px;
     visibility: hidden;
   }
 
@@ -81,7 +81,7 @@
     bottom: 550px;
     left: 40px;
     visibility: hidden;
-    width: 19%;
+    width: 22%;
     animation: click2 5s linear 5s infinite;
   }
   @keyframes click2 {
@@ -90,11 +90,15 @@
       left: 40px;
     }
     30% {
-      bottom: 550px;
+      bottom: 520px;
       left: 100px;
     }
     60% {
-      bottom: 550px;
+      bottom: 520px;
+      left: -50px;
+    }
+    80% {
+      bottom: 520x;
       left: -70px;
     }
     100% {
@@ -107,16 +111,16 @@
     bottom: 330px;
     left: -120px;
     visibility: hidden;
-    animation: chink1 4s linear 2s infinite;
+    animation: chink1 4s linear 5s infinite;
   }
   @keyframes chink1 {
     0% {
       bottom: 350px;
-      left: 240px;
+      left: 50px;
     }
     30% {
       bottom: 350px;
-      left: 80px;
+      left: 60px;
     }
     60% {
       bottom: 350px;
@@ -124,7 +128,7 @@
     }
     100% {
       bottom: 350px;
-      left: 220px;
+      left: 50px;
     }
   }
 }
