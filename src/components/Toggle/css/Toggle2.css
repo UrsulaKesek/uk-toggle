@@ -78,7 +78,7 @@
   }
   .cocktail7 {
     position: relative;
-    bottom: 300px;
+    bottom: 550px;
     left: 40px;
     visibility: hidden;
     width: 19%;
@@ -86,15 +86,15 @@
   }
   @keyframes click2 {
     0% {
-      bottom: 390px;
+      bottom: 550px;
       left: 40px;
     }
     30% {
-      bottom: 300px;
+      bottom: 400px;
       left: -50px;
     }
     60% {
-      bottom: 300px;
+      bottom: 400px;
       left: 60px;
     }
     100% {
