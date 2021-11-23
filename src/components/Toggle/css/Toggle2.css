@@ -32,15 +32,15 @@
 
   .cocktail4 {
     position: relative;
-    bottom: 200px;
-    left: 10px;
+    bottom: 150px;
+    left: 80px;
     visibility: hidden;
     animation: chink 4s linear 8s infinite;
   }
   @keyframes chink {
     0% {
       bottom: 150px;
-      left: 40px;
+      left: 80px;
     }
     30% {
       bottom: 150px;
@@ -48,18 +48,12 @@
     }
     60% {
       bottom: 150px;
-      left: -80px;
+      left: -150px;
     }
     100% {
       bottom: 150px;
-      left: 40px;
+      left: 80px;
     }
-  }
-  .cocktail4a {
-    position: relative;
-    bottom: 150px;
-    left: -200px;
-    visibility: hidden;
   }
 
   .cocktail5 {
@@ -108,27 +102,31 @@
   }
   .cocktail8 {
     position: relative;
-    bottom: 330px;
-    left: -120px;
+    bottom: 350px;
+    right: 20px;
     visibility: hidden;
     animation: chink1 4s linear 5s infinite;
   }
   @keyframes chink1 {
     0% {
       bottom: 350px;
-      left: 50px;
+      right: 20px;
+      transition: rotate(10deg);
     }
     30% {
       bottom: 350px;
-      left: 60px;
+      right: 20px;
+      transition: rotate(30deg);
     }
     60% {
       bottom: 350px;
-      left: -20px;
+      right: 50px;
+      transition: rotate(45deg);
     }
     100% {
       bottom: 350px;
-      left: 50px;
+      right: 20px;
+      transition: rotate(90deg);
     }
   }
 }
