@@ -58,7 +58,7 @@
   .cocktail4a {
     position: relative;
     bottom: 250px;
-    right: 200px;
+    left: -180px;
     visibility: hidden;
   }
 
@@ -82,7 +82,7 @@
     left: 40px;
     visibility: hidden;
     width: 19%;
-    animation: click2 5s cubic-bezier(0.075, 0.82, 0.165, 1) 3s infinite;
+    animation: click2 5s linear 5s infinite;
   }
   @keyframes click2 {
     0% {
