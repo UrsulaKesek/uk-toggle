@@ -25,6 +25,7 @@
     position: relative;
     bottom: 1060px;
     width: 380px;
+    height: 275px;
     right: 13px;
     visibility: hidden;
   }
@@ -54,6 +55,13 @@
       left: -40px;
     }
   }
+  .cocktail4a {
+    position: relative;
+    bottom: 250px;
+    right: 200px;
+    visibility: hidden;
+  }
+
   .cocktail5 {
     position: relative;
     bottom: 300px;
