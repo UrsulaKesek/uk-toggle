@@ -72,7 +72,7 @@
   .cocktail6 {
     position: relative;
     bottom: 500px;
-    left: 100px;
+    left: 200px;
     visibility: hidden;
     width: 17%;
   }
@@ -90,16 +90,16 @@
       left: 40px;
     }
     30% {
-      bottom: 400px;
-      left: -50px;
+      bottom: 550px;
+      left: 100px;
     }
     60% {
-      bottom: 400px;
-      left: 60px;
+      bottom: 550px;
+      left: -70px;
     }
     100% {
-      bottom: 370px;
-      left: 60px;
+      bottom: 550px;
+      left: 40px;
     }
   }
   .cocktail8 {
