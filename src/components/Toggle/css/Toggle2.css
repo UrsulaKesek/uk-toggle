@@ -18,8 +18,8 @@
   }
   .toggle-label {
     position: relative;
-    top: 485px;
-    left: 240px;
+    top: 495px;
+    left: 260px;
   }
   .garland {
     position: relative;
@@ -33,26 +33,27 @@
   .cocktail4 {
     position: relative;
     bottom: 150px;
-    left: 80px;
+    left: 40px;
     visibility: hidden;
     animation: chink 4s linear 8s infinite;
   }
   @keyframes chink {
     0% {
       bottom: 150px;
-      left: 80px;
+      left: 40px;
     }
     30% {
       bottom: 150px;
       left: 10px;
+      transform: rotate(-30deg);
     }
     60% {
       bottom: 150px;
-      left: -150px;
+      left: -70px;
     }
     100% {
       bottom: 150px;
-      left: 80px;
+      left: 40px;
     }
   }
 
@@ -103,30 +104,28 @@
   .cocktail8 {
     position: relative;
     bottom: 350px;
-    right: 20px;
+    right: 40px;
     visibility: hidden;
     animation: chink1 4s linear 5s infinite;
   }
   @keyframes chink1 {
     0% {
       bottom: 350px;
-      right: 20px;
-      transition: rotate(10deg);
+      right: 40px;
+      transform: rotate(-10deg);
     }
     30% {
       bottom: 350px;
-      right: 20px;
-      transition: rotate(30deg);
+      right: 60px;
+      transform: rotate(-20deg);
     }
     60% {
       bottom: 350px;
-      right: 50px;
-      transition: rotate(45deg);
+      right: 70px;
     }
     100% {
       bottom: 350px;
-      right: 20px;
-      transition: rotate(90deg);
+      right: 40px;
     }
   }
 }
