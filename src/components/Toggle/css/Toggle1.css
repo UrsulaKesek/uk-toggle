@@ -52,7 +52,7 @@
   }
   .cocktail4a {
     position: relative;
-    bottom: 400px;
+    bottom: 350px;
     left: 30px;
     visibility: hidden;
     width: 15%;
@@ -60,14 +60,14 @@
 
   .cocktail5 {
     position: relative;
-    bottom: 500px;
-    left: 30px;
+    bottom: 300px;
+    left: -230px;
     visibility: hidden;
     width: 15%;
   }
   .cocktail6 {
     position: relative;
-    bottom: 330px;
+    bottom: 430px;
     left: 150px;
     visibility: hidden;
     width: 17%;
