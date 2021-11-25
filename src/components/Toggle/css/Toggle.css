@@ -27,6 +27,13 @@
   visibility: hidden;
   width: 17%;
 }
+.cocktail6a {
+  position: relative;
+  bottom: 340px;
+  left: 115px;
+  visibility: hidden;
+  width: 17%;
+}
 .cocktail7 {
   position: relative;
   bottom: 570px;
@@ -37,7 +44,7 @@
 .cocktail8 {
   position: relative;
   bottom: 480px;
-  right: 20px;
+  right: -20px;
   visibility: hidden;
 }
 .garland {
