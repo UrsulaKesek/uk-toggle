@@ -37,13 +37,13 @@
     }
     30% {
       bottom: 140px;
-      left: -80px;
-      transform: rotate (0.2turn);
+      left: -100px;
+      transform: rotate(-10deg);
     }
     60% {
       bottom: 140px;
       left: -100px;
-      transform: rotate (0.3turn);
+      transform: rotate(15deg);
     }
     100% {
       bottom: 140px;
