@@ -82,7 +82,7 @@
   .cocktail7 {
     position: relative;
     bottom: 450px;
-    left: 40px;
+    left: 2px;
     visibility: hidden;
     width: 19%;
     animation: click2 5s cubic-bezier(0.075, 0.82, 0.165, 1) 3s infinite;
