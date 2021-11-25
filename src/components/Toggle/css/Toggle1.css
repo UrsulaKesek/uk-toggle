@@ -107,24 +107,6 @@
     animation: chink1 8s linear 2s infinite;
   }
   @keyframes chink1 {
-    0% {
-      bottom: 140px;
-      left: 20px;
-    }
-    30% {
-      bottom: 140px;
-      left: 80px;
-      transform: rotate (0deg);
-    }
-    60% {
-      bottom: 140px;
-      left: 60px;
-      transform: rotate (90deg);
-    }
-    100% {
-      bottom: 140px;
-      left: 20px;
-    }
   }
   .garland {
     position: relative;
