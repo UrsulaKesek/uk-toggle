@@ -141,6 +141,13 @@ function Toggle({
           alt="cocktail"
         />
         <img
+          className="cocktail6a"
+          style={{ visibility: isOn && onVisible }}
+          src={Cocktail6}
+          alt="cocktail"
+        />
+
+        <img
           className="cocktail7"
           style={{ visibility: isOn && onVisible }}
           src={Cocktail7}
