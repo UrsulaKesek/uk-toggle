@@ -33,7 +33,7 @@
   @keyframes chink1 {
     0% {
       bottom: 140px;
-      left: 20px;
+      left: 240px;
     }
     30% {
       bottom: 140px;
@@ -110,8 +110,8 @@
 
   .cocktail8 {
     position: relative;
-    bottom: 350px;
-    left: -120px;
+    bottom: 140px;
+    left: 20px;
     visibility: hidden;
     animation: chink 4s linear 2s infinite;
   }
