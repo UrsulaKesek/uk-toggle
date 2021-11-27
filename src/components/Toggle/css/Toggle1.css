@@ -25,28 +25,28 @@
 
   .cocktail4 {
     position: relative;
-    bottom: 200px;
+    bottom: 140px;
     left: 20px;
     visibility: hidden;
     animation: chink1 6s linear 2s infinite;
   }
   @keyframes chink1 {
     0% {
-      bottom: 160px;
+      bottom: 140px;
       left: -120px;
     }
     30% {
-      bottom: 160px;
+      bottom: 140px;
       left: -20px;
       transform: rotate(-10deg);
     }
     60% {
-      bottom: 160px;
+      bottom: 140px;
       left: 0px;
       transform: rotate(10deg);
     }
     100% {
-      bottom: 160px;
+      bottom: 140px;
       left: -80px;
     }
   }
