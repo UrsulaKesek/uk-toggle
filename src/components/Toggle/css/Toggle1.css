@@ -33,11 +33,11 @@
   @keyframes chink1 {
     0% {
       bottom: 140px;
-      left: 240px;
+      left: -240px;
     }
     30% {
       bottom: 140px;
-      left: 20px;
+      left: -20px;
       transform: rotate(-10deg);
     }
     60% {
@@ -117,21 +117,21 @@
   }
   @keyframes chink {
     0% {
-      bottom: 140px;
+      bottom: 350px;
       left: 20px;
     }
     30% {
-      bottom: 140px;
-      left: -100px;
-      transform: rotate(-10deg);
+      bottom: 350px;
+      left: 20px;
+      transform: rotate(-5deg);
     }
     60% {
-      bottom: 140px;
-      left: -100px;
-      transform: rotate(15deg);
+      bottom: 350px;
+      left: 20px;
+      transform: rotate(5deg);
     }
     100% {
-      bottom: 140px;
+      bottom: 350px;
       left: 20px;
     }
   }
