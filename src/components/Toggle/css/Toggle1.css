@@ -28,12 +28,12 @@
     bottom: 200px;
     left: 20px;
     visibility: hidden;
-    animation: chink1 4s linear 2s infinite;
+    animation: chink1 6s linear 2s infinite;
   }
   @keyframes chink1 {
     0% {
       bottom: 140px;
-      left: -240px;
+      left: -120px;
     }
     30% {
       bottom: 140px;
@@ -42,12 +42,12 @@
     }
     60% {
       bottom: 140px;
-      left: 20px;
+      left: 0px;
       transform: rotate(15deg);
     }
     100% {
       bottom: 140px;
-      left: 20px;
+      left: -80px;
     }
   }
   .cocktail4a {
