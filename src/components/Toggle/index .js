@@ -50,9 +50,9 @@ function Toggle({
         </p>
         <p
           className="p1"
-          style={{ color: isOn && onColor2, fontSize: isOn && onFontSize }}
+          style={{ color: isOn && onColor1, fontSize: isOn && onFontSize }}
         >
-          Birthday
+          Birthday Liz
         </p>
 
         <img
